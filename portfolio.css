@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/*flexbox*/
+
+section {
+    display: flex;
+    text-align: left;
+}
+
+aside {
+    flex: 1
+}
+
+article {
+    flex: 4
+}
+
+
+/*nav bar*/
+
+.active {
+    background-color: #696969;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
